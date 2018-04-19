@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2ADA821F2A42450022DBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2ADA811F2A42450022DBCB /* AppDelegate.swift */; };
+		EC2ADA841F2A42450022DBCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2ADA831F2A42450022DBCB /* ViewController.swift */; };
+		EC2ADA871F2A42450022DBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2ADA851F2A42450022DBCB /* Main.storyboard */; };
+		EC2ADA8A1F2A42450022DBCB /* map.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2ADA881F2A42450022DBCB /* map.xcdatamodeld */; };
+		EC2ADA8C1F2A42450022DBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2ADA8B1F2A42450022DBCB /* Assets.xcassets */; };
+		EC2ADA8F1F2A42450022DBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2ADA8D1F2A42450022DBCB /* LaunchScreen.storyboard */; };
+		EC2ADA981F2A448B0022DBCB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2ADA971F2A448B0022DBCB /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC2ADA7E1F2A42450022DBCB /* map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2ADA811F2A42450022DBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC2ADA831F2A42450022DBCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC2ADA861F2A42450022DBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2ADA891F2A42450022DBCB /* map.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = map.xcdatamodel; sourceTree = "<group>"; };
+		EC2ADA8B1F2A42450022DBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2ADA8E1F2A42450022DBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2ADA901F2A42450022DBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2ADA971F2A448B0022DBCB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2ADA7B1F2A42450022DBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2ADA981F2A448B0022DBCB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2ADA751F2A42450022DBCB = {
+			isa = PBXGroup;
+			children = (
+				EC2ADA801F2A42450022DBCB /* map */,
+				EC2ADA7F1F2A42450022DBCB /* Products */,
+				EC2ADA961F2A448B0022DBCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2ADA7F1F2A42450022DBCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2ADA7E1F2A42450022DBCB /* map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2ADA801F2A42450022DBCB /* map */ = {
+			isa = PBXGroup;
+			children = (
+				EC2ADA811F2A42450022DBCB /* AppDelegate.swift */,
+				EC2ADA831F2A42450022DBCB /* ViewController.swift */,
+				EC2ADA851F2A42450022DBCB /* Main.storyboard */,
+				EC2ADA8B1F2A42450022DBCB /* Assets.xcassets */,
+				EC2ADA8D1F2A42450022DBCB /* LaunchScreen.storyboard */,
+				EC2ADA901F2A42450022DBCB /* Info.plist */,
+				EC2ADA881F2A42450022DBCB /* map.xcdatamodeld */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		EC2ADA961F2A448B0022DBCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2ADA971F2A448B0022DBCB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2ADA7D1F2A42450022DBCB /* map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2ADA931F2A42450022DBCB /* Build configuration list for PBXNativeTarget "map" */;
+			buildPhases = (
+				EC2ADA7A1F2A42450022DBCB /* Sources */,
+				EC2ADA7B1F2A42450022DBCB /* Frameworks */,
+				EC2ADA7C1F2A42450022DBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = map;
+			productName = map;
+			productReference = EC2ADA7E1F2A42450022DBCB /* map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2ADA761F2A42450022DBCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dolfi Patel";
+				TargetAttributes = {
+					EC2ADA7D1F2A42450022DBCB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC2ADA791F2A42450022DBCB /* Build configuration list for PBXProject "map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2ADA751F2A42450022DBCB;
+			productRefGroup = EC2ADA7F1F2A42450022DBCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2ADA7D1F2A42450022DBCB /* map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2ADA7C1F2A42450022DBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2ADA8F1F2A42450022DBCB /* LaunchScreen.storyboard in Resources */,
+				EC2ADA8C1F2A42450022DBCB /* Assets.xcassets in Resources */,
+				EC2ADA871F2A42450022DBCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2ADA7A1F2A42450022DBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2ADA8A1F2A42450022DBCB /* map.xcdatamodeld in Sources */,
+				EC2ADA841F2A42450022DBCB /* ViewController.swift in Sources */,
+				EC2ADA821F2A42450022DBCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC2ADA851F2A42450022DBCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2ADA861F2A42450022DBCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2ADA8D1F2A42450022DBCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2ADA8E1F2A42450022DBCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2ADA911F2A42450022DBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2ADA921F2A42450022DBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2ADA941F2A42450022DBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dolfi-Patel.map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC2ADA951F2A42450022DBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dolfi-Patel.map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2ADA791F2A42450022DBCB /* Build configuration list for PBXProject "map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2ADA911F2A42450022DBCB /* Debug */,
+				EC2ADA921F2A42450022DBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2ADA931F2A42450022DBCB /* Build configuration list for PBXNativeTarget "map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2ADA941F2A42450022DBCB /* Debug */,
+				EC2ADA951F2A42450022DBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC2ADA881F2A42450022DBCB /* map.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC2ADA891F2A42450022DBCB /* map.xcdatamodel */,
+			);
+			currentVersion = EC2ADA891F2A42450022DBCB /* map.xcdatamodel */;
+			path = map.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC2ADA761F2A42450022DBCB /* Project object */;
+}
